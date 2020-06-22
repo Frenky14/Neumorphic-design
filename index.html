@@ -7,31 +7,31 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <main>
-      <input type="number" value="0" />
+    <div class="calculator">
+      <input type="number" value="0" class="display" />
       <div class="keys">
-        <button class="opkey" op="clear">C</button>
-        <button class="opkey" op="negate">+/-</button>
-        <button class="opkey" op="percent">%</button>
-        <button class="opkey" op="divide">/</button>
-        <button class="numkey">7</button>
-        <button class="numkey">8</button>
-        <button class="numkey">9</button>
-        <button class="opkey" op="multiply">X</button>
-        <button class="numkey">4</button>
-        <button class="numkey">5</button>
-        <button class="numkey">6</button>
-        <button class="opkey" op="subtract">-</button>
-        <button class="numkey">1</button>
-        <button class="numkey">2</button>
-        <button class="numkey">3</button>
-        <button class="opkey" op="add">+</button>
+        <button class="keyop" value="reset">C</button>
+        <button class="keyop" value="plus/minus">+/-</button>
+        <button class="keyop" value="percent">%</button>
+        <button class="keyop" value="divide">/</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="keyop" value="multiply">*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="keyop" value="minus">-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="keyop" value="plus">+</button>
         <span></span>
-        <button class="numkey">0</button>
-        <button class="numkey">.</button>
-        <button class="eqkey">=</button>
+        <button>0</button>
+        <button class="keyop" value="decimal">.</button>
+        <button class="keyeq" value="equal">=</button>
       </div>
-    </main>
+    </div>
     <script src="/js/main.js"></script>
   </body>
 </html>

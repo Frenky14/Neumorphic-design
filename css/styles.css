@@ -10,8 +10,6 @@
 }
 
 body {
-  height: 100vh;
-  width: 200vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,28 +21,29 @@ body {
           justify-content: center;
 }
 
-main {
+.calculator {
   -webkit-box-shadow: -6px -6px 9px white, 6px 6px 9px rgba(0, 0, 0, 0.4);
           box-shadow: -6px -6px 9px white, 6px 6px 9px rgba(0, 0, 0, 0.4);
   padding: 2rem;
   border-radius: 30px;
+  margin-top: 200px;
 }
 
-main input,
-main button {
+.calculator input,
+.calculator button {
   outline: none;
 }
 
-main input::-webkit-outer-spin-button,
-main input::-webkit-inner-spin-button {
+.calculator input::-webkit-outer-spin-button,
+.calculator input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-main input[type="number"] {
+.calculator input[type="number"] {
   -moz-appearance: textfield;
 }
 
-main input {
+.calculator input {
   -webkit-box-shadow: inset -6px -6px 9px white, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
           box-shadow: inset -6px -6px 9px white, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
   width: 320px;
@@ -85,7 +84,7 @@ button:active {
           box-shadow: inset -6px -6px 9px white, inset 6px 6px 9px rgba(0, 0, 0, 0.4);
 }
 
-button.opkey, button.eqkey {
+button.keyop, button.keyeq {
   color: #ff652f;
 }
 /*# sourceMappingURL=styles.css.map */

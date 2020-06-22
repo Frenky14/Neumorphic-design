@@ -10,8 +10,6 @@
 }
 
 body {
-  height: 100vh;
-  width: 200vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,10 +23,11 @@ body {
   box-shadow: inset -6px -6px 9px white, inset 6px 6px 9px rgba(black, 0.4); //neumorphic box shadow design za notranji zaslon
 }
 
-main {
+.calculator {
   @include shadow;
   padding: 2rem;
   border-radius: 30px;
+  margin-top: 200px;
 
   input,
   button {
@@ -80,8 +79,8 @@ button {
     @include shadow-inset;
   }
 
-  &.opkey,
-  &.eqkey {
+  &.keyop,
+  &.keyeq {
     color: #ff652f;
   }
 }
