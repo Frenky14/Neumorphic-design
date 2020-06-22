@@ -1,1 +1,1 @@
-# Neumorphic-Calculator
+# Neumorphic-Design
